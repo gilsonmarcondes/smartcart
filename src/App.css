@@ -76,3 +76,22 @@
 .cat-laticinios { border-left: 6px solid #3498db; }
 .cat-viagem { border-left: 6px solid #9b59b6; }
 .cat-geral { border-left: 6px solid #95a5a6; }
+
+.date-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.date-selector input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+.empty-msg {
+  text-align: center;
+  color: #999;
+  margin-top: 20px;
+}
